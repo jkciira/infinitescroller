@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinite Scroller</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="loader d-flex">
+      <div class="loader-wrapper">
+        <img src="./assets/images/spinner.png" alt="" class="loader-img spin" />
+      </div>
+    </div>
+
+    <div class="container d-flex">
+      <div class="slider d-flex flex-col" slider-width="100%">
+        <div class="slider-container">
+          <ul class="slider-ul--wrapper d-flex just-btwn">
+            <li class="slider-li--item">
+              <img
+                src="./assets/images/movies/img-1.jpg"
+                alt=""
+                class="slider-img--item-img"
+              />
+            </li>
+            <li class="slider-li--item">
+              <img
+                src="./assets/images/movies/img-2.jpg"
+                alt=""
+                class="slider-img--item-img"
+              />
+            </li>
+            <li class="slider-li--item">
+              <img
+                src="./assets/images/movies/img-3.jpg"
+                alt=""
+                class="slider-img--item-img"
+              />
+            </li>
+            <li class="slider-li--item">
+              <img
+                src="./assets/images/movies/img-4.jpg"
+                alt=""
+                class="slider-img--item-img"
+              />
+            </li>
+            <li class="slider-li--item">
+              <img
+                src="./assets/images/movies/img-5.jpg"
+                alt=""
+                class="slider-img--item-img"
+              />
+            </li>
+          </ul>
+
+          <div class="slider-scroller">
+            <button
+              class="slider-button fas fa-chevron-left"
+              modifier="-1"
+            ></button>
+            <button
+              class="slider-button fas fa-chevron-right"
+              modifier="1"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
